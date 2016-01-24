@@ -16,6 +16,4 @@ verb "url" => "name_of_controller#name_of_action"
 
 AKA
 
-Rails.application.routes.draw do
 get "projects" => "projects#index"
-end
