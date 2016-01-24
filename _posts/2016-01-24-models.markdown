@@ -1,0 +1,15 @@
+---
+published: true
+title: Models
+layout: post
+---
+Great, now we've created the projects controller we want to create a Project model so we can store projects in the database. 
+
+Run: 
+rails g model project name:string description:text target_pledge_amount:decimal
+
+This creates the model for a database table with the fields Name, Description and Target Pledge Amount. They also have corresponding types such as string, text and decimal. 
+
+Once we run:
+
+rake db:migrate we now have a database.
