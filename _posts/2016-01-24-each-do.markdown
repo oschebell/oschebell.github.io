@@ -19,11 +19,12 @@ hash from projects controller:     @projects = ['Electric Skateboard', 'Meat Pop
 
 index.html.erb:
 
-<ul>
-<% @projects.each do |project| %>
-<l i><%= project %></li>
-<% end %>
-</ul>
+
+    <% @projects.each do |project| %>
+    <li><%= project %></li>
+    <% end %>
+
+
 
 The outputted html:
 
