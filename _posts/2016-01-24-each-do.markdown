@@ -1,0 +1,33 @@
+---
+published: true
+title: .each do | |
+layout: post
+---
+Cool so that lists the projects as a hash but if we want to display it as say a list we can use the ruby .each do method to iterate through the hash and pull the content out for each project. It would look like this:
+
+<% @projects.each do |project| %>
+    <li><%= project %></li>
+<% end %>
+
+
+How does this work???
+
+Well, it calls the .each method on the @projects instance variable. It then assigns the first item in the hash to the variable inside the pipe characters |project| 
+it then creates a HTML list item <li> and then calls the project variable which displays the current hash item. Like so.
+
+hash from projects controller:     @projects = ['Electric Skateboard', 'Meat Popsicle', 'Waterproof Teabag']
+
+index.html.erb:
+
+<ul>
+<% @projects.each do |project| %>
+    <li><%= project %></li>
+<% end %>
+</ul>
+
+The outputted html:
+
+
+    Electric Skateboard
+    Meat Popsicle
+    Waterproof Teabag
