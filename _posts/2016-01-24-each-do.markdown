@@ -21,13 +21,13 @@ index.html.erb:
 
 <ul>
 <% @projects.each do |project| %>
-<li ><%= project %></li>
+<l i><%= project %></li>
 <% end %>
 </ul>
 
 The outputted html:
 
 
-    Electric Skateboard
-    Meat Popsicle
-    Waterproof Teabag
+    <li>Electric Skateboard</li>
+   <li> Meat Popsicle</li>
+    <li>Waterproof Teabag</li>
