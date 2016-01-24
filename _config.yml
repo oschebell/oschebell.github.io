@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://oschebell.github.io
+title: Owen Schebella
+email: oschebell@gmail.com
+author: Owen Schebella
+description: All about my journey from photographer to web developer. 
+paginate: 5
+google_analytics: 
