@@ -27,7 +27,8 @@ index.html.erb:
 
 The outputted html:
 
-
+<ul>
     <li>Electric Skateboard</li>
    <li> Meat Popsicle</li>
     <li>Waterproof Teabag</li>
+</ul>
