@@ -32,4 +32,4 @@ Now we have action 'index' error for ProjectsController. Sweet another error!
 -Go to Views, Projects and create in index.html.erb
     put some junk content in there e.g. <h1>hello</h1>, refresh and bam!
 
-hello written on the localhost/projects page. Now we on rails! 
+hello written on the localhost/projects page. Now we on rails!
