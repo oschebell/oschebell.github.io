@@ -21,5 +21,6 @@ project.description = "A brand new ultra light lithium battery powered skateboar
 project.target_pledge_amount = 10000
 
 
-We can also do this as one move with project = Project.new(title:'Meat Popsicle', description:'Negative, I am a meat popsicle', target_pledge_amount:20')
+We can also do this as one move with project = Project.new(name:'Meat Popsicle', description:'Negative, I am a meat popsicle', target_pledge_amount:20)
 
+project.save
